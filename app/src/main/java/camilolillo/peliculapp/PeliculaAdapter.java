@@ -40,7 +40,7 @@ public class PeliculaAdapter extends RecyclerView.Adapter<PeliculaAdapter.Pelicu
 
     @Override
     public void onBindViewHolder(@NonNull PeliculaViewHolder holder, int position) {
-        String url = "https://image.tmdb.org/t/p/w300_and_h300_bestv2";
+        String url = "https://image.tmdb.org/t/p/w200";
         Pelicula pelicula = peliculas.get(position);
         holder.titulo.setText(pelicula.getTitulo());
         holder.evaluacion.setText(Double.toString(pelicula.getCalificacion()));
