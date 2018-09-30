@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">TMDb</string>
+    <string name="todo">todo</string>
+    <string name="tmdb">TMDb</string>
+    <string name="the_movie_database">The movie database</string>
+    <string name="most_popular">Most popular</string>
+    <string name="highest_rated">Highest rated</string>
+</resources>
